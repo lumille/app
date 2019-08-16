@@ -1,0 +1,25 @@
+{
+    "name": "lumille/app",
+    "description": "Skeleton application with Lumille framework",
+    "authors": [
+        {
+            "name": "Frederic KOLLER",
+            "email": "koller.f@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "altorouter/altorouter": "v1.2.0",
+        "eftec/bladeone": "3.31",
+        "fzaninotto/faker": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src",
+            "Lumille\\": "../lumille/src"
+        },
+        "files": [
+            "../lumille/src/helpers.php"
+        ]
+    }
+}
