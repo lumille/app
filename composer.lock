@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c5533d241a6e549766571e9e2998985",
+    "content-hash": "e0030aa209ae2b766e7dcd60c87c8951",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -168,6 +168,47 @@
                 "fixtures"
             ],
             "time": "2019-04-16T09:48:34+00:00"
+        },
+        {
+            "name": "lumille/lumille",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lumille/lumille.git",
+                "reference": "41eaef6f7b26dfe874b58723fe9fcc61cbbff7d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lumille/lumille/zipball/41eaef6f7b26dfe874b58723fe9fcc61cbbff7d1",
+                "reference": "41eaef6f7b26dfe874b58723fe9fcc61cbbff7d1",
+                "shasum": ""
+            },
+            "require": {
+                "altorouter/altorouter": "v1.2.0",
+                "eftec/bladeone": "3.31",
+                "fzaninotto/faker": "^1.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lumille\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frederic KOLLER",
+                    "email": "koller.f@gmail.com"
+                }
+            ],
+            "description": "Minimalist Framework",
+            "time": "2019-08-16T11:47:38+00:00"
         }
     ],
     "packages-dev": [],
@@ -176,6 +217,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.1.0"
+    },
     "platform-dev": []
 }

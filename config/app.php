@@ -3,5 +3,6 @@
 return [
     'debug' => true,
     'name' => 'Lumille',
-    'controller' => 'App\\Controller\\'
+    'controller' => 'App\\Controller\\',
+    'locale' => 'en'
 ];
