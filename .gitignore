@@ -2,7 +2,6 @@
 vendor
 tmp/*
 node_modules
-public/css
 yarn.lock
 package-lock.json
 mix-manifest.json
