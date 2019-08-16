@@ -6,3 +6,4 @@ yarn.lock
 package-lock.json
 mix-manifest.json
 webpack.mix.js
+.env

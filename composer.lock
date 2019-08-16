@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0030aa209ae2b766e7dcd60c87c8951",
+    "content-hash": "42e3f5e9ea59937a7307f3e3ee93c5c6",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -121,16 +121,16 @@
         },
         {
             "name": "fzaninotto/faker",
-            "version": "dev-master",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "fb218ada627f7c750c6e0e41cae486d2db48e911"
+                "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/fb218ada627f7c750c6e0e41cae486d2db48e911",
-                "reference": "fb218ada627f7c750c6e0e41cae486d2db48e911",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/f72816b43e74063c8b10357394b6bba8cb1c10de",
+                "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de",
                 "shasum": ""
             },
             "require": {
@@ -144,7 +144,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.8-dev"
                 }
             },
             "autoload": {
@@ -167,7 +167,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2019-04-16T09:48:34+00:00"
+            "time": "2018-07-12T10:23:15+00:00"
         },
         {
             "name": "lumille/lumille",
@@ -215,10 +215,10 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1.0"
+        "php": "7.1.*"
     },
     "platform-dev": []
 }
