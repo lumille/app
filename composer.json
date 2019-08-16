@@ -1,6 +1,11 @@
 {
     "name": "lumille/app",
-    "description": "Skeleton application with Lumille framework",
+    "description": "The Lumille framework",
+    "keywords": [
+        "framework",
+        "Lumille"
+    ],
+    "license": "MIT",
     "authors": [
         {
             "name": "Frederic KOLLER",
