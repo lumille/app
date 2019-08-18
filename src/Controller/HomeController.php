@@ -9,6 +9,6 @@ class HomeController extends AppController
 
     public function hello ()
     {
-        render('hello');
+        return render('home.hello');
     }
 }

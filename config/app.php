@@ -3,6 +3,13 @@
 return [
     'debug' => true,
     'name' => 'Lumille',
-    'controller' => 'App\\Controller\\',
-    'locale' => 'en'
+    'locale' => 'en',
+
+    "namespace" => [
+        "controller" => "App\\Controller\\"
+    ],
+
+    "alias" => [
+        "View" => Lumille\Facades\ViewFacade::class
+    ]
 ];
