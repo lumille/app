@@ -1,3 +1,3 @@
 <?php
 
-$router->get('/', 'HomeController::hello', 'home.hello');
+\Route::get('/', 'HomeController::hello', 'home.hello');
