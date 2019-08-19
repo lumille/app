@@ -10,7 +10,8 @@ return [
     ],
 
     "providers" => [
-        Lumille\Providers\ConfigServiceProvider::class
+        Lumille\Providers\ConfigServiceProvider::class,
+        Lumille\Providers\EnvServiceProvider::class
     ],
 
     "alias" => [
