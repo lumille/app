@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'debug' => true,
-    'name' => 'Lumille',
+    'debug' => env("DEBUG", false),
+    'name' => env("APP_NAME", "Lumille Framwork"),
     'locale' => 'en',
 
     "namespaces" => [
@@ -15,8 +15,10 @@ return [
     ],
 
     "alias" => [
-        "Config" => Lumille\Facades\ConfigFacade::class,
         "Route" => Lumille\Facades\RouteFacade::class,
         "View" => Lumille\Facades\ViewFacade::class,
+        "Config" => Lumille\Facades\ConfigFacade::class,
+        'Request' => Lumille\Facades\RequestFacades::class,
+        'Response' => Lumille\Facades\ResponseFacades::class
     ]
 ];
