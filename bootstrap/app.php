@@ -18,7 +18,7 @@ $app->singleton('config', function ($c) use ($app) {
 });
 
 $app->singleton('route', function ($c) use ($app){
-    return new Lumille\Routing\Router(\Config::get('app.namespaces.controller'), $_SERVER['REQUEST_URI']);
+    return new Lumille\Routing\Router($app->getRequest()->getOriginal());
 });
 
 $app->singleton('view', function ($c) use ($app) {

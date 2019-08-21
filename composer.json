@@ -14,8 +14,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "~7.1.0",
-        "lumille/lumille": "^0.1.2"
+        "php": "~7.0",
+        "lumille/lumille": "^0.1.5"
     },
     "autoload": {
         "psr-4": {

@@ -1,10 +1,14 @@
 .DS_Store
-vendor
+.env
+.idea
+
 tmp/*
+
+vendor
 node_modules
+
 yarn.lock
 package-lock.json
 mix-manifest.json
-.env
-.idea
 composer.lock
+composer.phar
